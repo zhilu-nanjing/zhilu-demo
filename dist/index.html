@@ -8,7 +8,7 @@
 <body onload="load()">
 
 
-<div id="x-spreadsheet-demo"></div>
+<div id="financial-cell"></div>
 <script>
     function cellTypeRandom(type) {
         let cell = {};
@@ -422,7 +422,7 @@
 
         let spaces = ['          ', '                    '];     // 10个空格，和20个空格
 
-        var xs = x.spreadsheet('#x-spreadsheet-demo', options, {})
+        var xs = x.spreadsheet('#financial-cell', options, {})
             .loadData({
                 styles: [
                     {
