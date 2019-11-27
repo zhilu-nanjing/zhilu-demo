@@ -238,7 +238,7 @@ body {
   height: 100%;
 }
 .aaa {
-  padding: 0;
+  padding: 0px;
   height: auto;
   line-height: normal;
 }
@@ -263,7 +263,7 @@ body {
   top: -4px;
   width: 5px;
   height: 100%;
-  right: 0;
+  right: 0px;
   cursor: move;
   pointer-events: auto;
 }
@@ -432,6 +432,7 @@ body {
   font-size: 14px;
   border: 1px solid transparent;
   outline: none;
+  height: 26px;
   line-height: 26px;
   list-style: none;
   cursor: default;
@@ -827,7 +828,7 @@ body {
   border: 1px solid rgba(0, 0, 0, 0.1);
   background-color: #fff;
   background-clip: padding-box;
-  box-shadow: rgba(0, 0, 0, 0.2) 0 2px 8px;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 8px;
 }
 .fin-cell-toast {
   background-color: rgba(255, 255, 255, 0.85);
@@ -1090,8 +1091,8 @@ body {
 .fin-cell-revisions-sidebar {
   height: 100%;
   position: absolute;
-  box-shadow: -3px 0 6px -3px rgba(60, 64, 67, 0.15);
-  top: 0;
+  box-shadow: -3px 0px 6px -3px rgba(60, 64, 67, 0.15);
+  top: 0px;
   background: #fafafa;
   overflow-y: auto;
   z-index: 1;
@@ -1123,7 +1124,7 @@ body {
 }
 .fin-cell-hyperlink-tooltip {
   background: #fcfcfc;
-  box-shadow: 0 0 2px 0 rgba(0, 0, 0, 0.15), 0 1px 2px 0 rgba(0, 0, 0, 0.4);
+  box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, 0.15), 0px 1px 2px 0px rgba(0, 0, 0, 0.4);
   border-radius: 1px;
   display: inline-block;
   padding: 5px 18px 5px 7px;
@@ -1172,6 +1173,7 @@ body {
 .fin-cell-editor-textEl {
   line-height: 22px;
   background: white;
+  caret-color: white;
   min-height: 22px;
   left: 2px;
   cursor: default;
@@ -1183,7 +1185,7 @@ body {
 }
 .fin-cell-paste-overlay-container {
   position: absolute;
-  top: 0;
+  top: 0px;
   width: 100%;
   height: 100%;
   z-index: 10000;
@@ -1228,25 +1230,25 @@ body {
 }
 .line2 {
   position: absolute;
-  left: 0;
+  left: 0px;
   height: 100%;
   width: 1px;
-  top: 0;
+  top: 0px;
   background: #e3e3e3;
 }
 .line3 {
   background: #e3e3e3;
   position: absolute;
-  top: 0;
+  top: 0px;
   width: 100%;
   height: 1px;
 }
 .line4 {
   position: absolute;
-  right: 0;
+  right: 0px;
   height: 100%;
   width: 1px;
-  top: 0;
+  top: 0px;
   background: #e3e3e3;
 }
 .nw {
@@ -1294,3 +1296,5 @@ body {
   cursor: n-resize;
 }
 
+
+/*# sourceMappingURL=xspreadsheet.css.map*/
